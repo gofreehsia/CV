@@ -1,5 +1,5 @@
 
-//nav變色動畫
+//nav change
 function checkScroll(){
   var startY = $('.nav').height()*2;
   
@@ -60,7 +60,7 @@ function isElementInViewport(elem) {
 
 // Check if it's time to start the animation.
 function checkAnimation() {
-    var $elem = $('.chart__bar, .chart__title');
+    var $elem = $('.chart-bar, .chart-title');
 
     // If the animation has already been started
     if ($elem.hasClass('start')) return;
