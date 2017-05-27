@@ -4,7 +4,6 @@ function checkScroll(){
   var startY = $('.nav').height()*2;
   
   if($(window).scrollTop()>startY){
-    console.log(startY);
     $('.nav, a').addClass("scrolled")
   }else{
     $('.nav, a').removeClass('scrolled')
